@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "603212453184",
+    "firebase_url": "https://cuoikiktmdt-default-rtdb.firebaseio.com",
+    "project_id": "cuoikiktmdt",
+    "storage_bucket": "cuoikiktmdt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603212453184:android:2db563fac35821c820d6a5",
+        "android_client_info": {
+          "package_name": "com.example.customnavigationdrawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603212453184-4rle7rb588m6epuu7jr1u572tsp5pcdk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.customnavigationdrawer",
+            "certificate_hash": "8a9929c247714e4d7f76de8c6395840116c884ba"
+          }
+        },
+        {
+          "client_id": "603212453184-12aaurckmn28ajo3p4eu7r8b6squfcvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxNT3VUdWicGzcS9M9ncukj9_qYJeY4eY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603212453184-12aaurckmn28ajo3p4eu7r8b6squfcvs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

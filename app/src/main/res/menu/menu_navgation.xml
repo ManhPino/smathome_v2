@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <group android:checkableBehavior="single">
+      <item android:title="@string/item_home"
+          android:id="@+id/nav_home"
+          android:icon="@drawable/ic_baseline_home_24"/>
+   </group>
+   <group android:checkableBehavior="single">
+      <item android:title="Setting"
+          android:id="@+id/nav_setting"
+          android:icon="@drawable/ic_baseline_settings_24"/>
+   </group>
+   <group>
+      <item android:title="My Chart">
+         <menu>
+            <item android:title="Line Chart Temperature"
+                android:id="@+id/nav_chart_humi"
+                android:icon="@drawable/ic_baseline_stacked_line_chart_24"/>
+            <item android:title="Line Chart Humidity"
+                android:id="@+id/nav_chart_temp"
+                android:icon="@drawable/ic_baseline_stacked_line_chart_24"/>
+         </menu>
+      </item>
+   </group>
+   <item android:title="Account">
+       <menu>
+          <item android:title="@string/item_myprofile"
+              android:id="@+id/nav_myprofile"
+              android:icon="@drawable/ic_baseline_person_24"/>
+          <item android:title="@string/item_chagepassword"
+              android:id="@+id/nav_changepassword"
+              android:icon="@drawable/ic_baseline_change_circle_24"/>
+       </menu>
+   </item>
+   <group>
+      <item android:title="Log Out"
+          android:id="@+id/nav_logout"
+          android:icon="@drawable/ic_baseline_logout_24"/>
+   </group>
+   <group>
+      <item android:title="Information"
+          android:id="@+id/nav_history"
+          android:icon="@drawable/ic_baseline_history_24"/>
+   </group>
+</menu>
